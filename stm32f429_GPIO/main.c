@@ -96,6 +96,8 @@ uint8_t PushButton_Read(void){
 /**************************************************************************************/
 int main(void)
 {
+  
+
     RCC_Configuration();
     GPIO_Configuration();
     LED_Initialization();
